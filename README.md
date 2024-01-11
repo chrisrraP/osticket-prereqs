@@ -19,11 +19,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Install IIS
-- Install PHP and MySQL
-- Install osTicket
-- Configure os Ticket
-- Cleanup
+- IIS and Management Console
+- PHP and Rewrite Module
+- MySQL
+- HeidiSQL
+- osTicket
 
 <h2>Installation Steps</h2>
 
