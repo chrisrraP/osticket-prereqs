@@ -31,7 +31,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://github.com/chrisrraP/osticket-prereqs/blob/main/Install%20IIS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Create a virtual machine (VM) that uses Windows 10 OS. Reference https://github.com/chrisrraP/configure-ad to learn how to create virtual machines. Install IIS by right-clicking on the start button, click on "run" and type in "control panel". Select program and features. Select "windows features. Install and enable IIS management console in web management tools. Also, enable CGI and all of Common HTTP Features boxes (located in: world wide web services > application development features.) Install PHP manager. Install rewrite module.
+Create a virtual machine (VM) that uses Windows 10 OS. Reference https://github.com/chrisrraP/configure-ad to learn how to create virtual machines. Install IIS by right-clicking on the start button, click on "run" and type in "control panel". Select program and features. Select "windows features". Install and enable IIS management console in web management tools. Also, enable CGI and all of Common HTTP Features boxes (located in: world wide web services > application development features.) Install PHP manager. Install rewrite module.
 </p>
 <br />
 
@@ -55,6 +55,6 @@ Open IIS as administrator. Register PHP inside of IIS. Stop and start server. In
 <img src="https://github.com/chrisrraP/osticket-prereqs/blob/main/osTicket%20Installed.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Start filling out the form in os Ticket. Before you complete the form, you'll need a database client. Install HeidiSQL. Open HeidiSQL and create a new database using the name and password you created for MySQL. Connect to session and create a database called "osTicket". Now that you've created a database you can now finish filling out the form. Use your MySQL name and password on the form. Click install now. Browse to your help desk login page: http://localhost/osTicket/scp/login.php. There's a little bit of cleanup necessary before you proceed. Delete: C:\inetpub\wwwroot\osTicket\setup and set Permissions to “Read, Read and execute": C:\inetpub\wwwroot\osTicket\include\ost-config.php.
+Start filling out the form in os Ticket. Before you complete the form, you'll need a database client. Install HeidiSQL. Open HeidiSQL and create a new database using the name and password you created for MySQL. Connect to session and create a database called "osTicket". Now that you've created a database you can now finish filling out the form. Use your MySQL name and password on the form. Click install now. Browse to your help desk login page: http://localhost/osTicket/scp/login.php. There's a little bit of cleanup necessary before you proceed. Delete: C:\inetpub\wwwroot\osTicket\setup. Set Permissions to “Read, Read and execute" at : C:\inetpub\wwwroot\osTicket\include\ost-config.php.
 </p>
 <br />
