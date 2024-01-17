@@ -36,7 +36,7 @@ Create a virtual machine (VM) that uses Windows 10 OS. Reference https://github.
 <br />
 
 <p>
-<img src="https://github.com/chrisrraP/osticket-prereqs/blob/main/Configure%20MySQL%20Settings.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Q3lFtDX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Create a folder in C:\ called "PHP". Install PHP and unzip contents to PHP folder you created. Install VC redist.x86.exe. Install MySqL (typical setup). Launch configuration wizard, select standard and create a name plus password. FYI- You will need to remember them.
